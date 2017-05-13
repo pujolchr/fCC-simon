@@ -1,0 +1,91 @@
+#checkbox {
+  margin-top: 0.6em;
+}
+
+#btn-yellow {
+  order: 3;
+  border-radius: 0 0 0 100%;
+  background-color: yellow;
+}
+
+#btn-blue {
+  order: 4;
+  border-radius: 0 0 100% 0;
+  background-color: cyan;
+}
+
+#btn-green {
+  order: 1;
+  border-radius: 100% 0 0 0;
+  background-color: lime;
+}
+
+#btn-red {
+  order: 2;
+  border-radius: 0 100% 0 0;
+  background-color: red;
+}
+
+.App {
+  max-width: 90vw;
+  margin: auto;
+  text-align: center;
+}
+
+.btn {
+  display: block;
+  width: 50%;
+  filter: brightness(80%);
+  cursor: pointer;
+  border: 0;
+}
+
+.message {
+  padding: .75rem 1.5rem;
+  margin: 10px;
+  font-size: 1.25rem;
+  border-radius: 100%;
+  color: white;
+  background-color: #0275d8;
+  border-color: #01549b;
+  border: 1px solid transparent;
+}
+
+.btn-control {
+  padding: .75rem 1.5rem;
+  margin-right: 1em;
+  font-size: 1.25rem;
+  border-radius: 100%;
+  color: white;
+  background-color: #5cb85c;
+  border-color: #4cae4c;
+  border: 1px solid transparent;
+  cursor: pointer;
+}
+
+.btn-control:hover {
+  background-color: #449d44;
+  border-color: #398439;
+}
+
+.control {
+  padding: 2em;
+  text-align: left;
+}
+
+.flexctrl {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.flexpad {
+  margin: auto;
+  width: 55vw;
+  height: 55vw;
+  max-width: 55vh;
+  max-height: 55vh;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
